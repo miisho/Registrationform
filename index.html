@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <form class="order" action="order.html">
+      <div class="dec">
+        <h1>შეუკვეთე პროდუქტი დღესვე</h1>
+      </div>
+      <input type="text" name="username" id="username" placeholder="სახელი*" required>
+      <input type="text" name="usersurename" id="usersurename" placeholder="გვარი*" required>
+      <input type="tel" name="mobile" id="mobile" placeholder="ტელეფონის ნომერი *" required>
+      <label for="message" class="msg">გთხოვთ მიუთითოთ ზუსტი მისამართი</label>
+      <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+      <p>აირჩიე გადახდის მეთოდი</p>
+      <div class="gadaxda">
+        <div class="pay">
+      <label for="card" class="cardpay">ბარათით გადახდა</label>
+      <input type="checkbox" name="card" id="card">
+      <label for="cash" class="cashpay">ქეშით გადახდა</label>
+      <input type="checkbox" name="cash" id="cash" class="cash">
+        </div>
+
+      <input type="submit" value="შეკვეთის გაფორმება">
+    </form>
+  </main>
+  <footer></footer>
+</body>
+</html>

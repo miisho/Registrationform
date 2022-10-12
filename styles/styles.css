@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: url(../imgs/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.order {
+  width: 750px;
+  margin-top: 30px;
+  margin-left: 550px;
+
+}
+
+.dec {
+  width: 750px;
+  height: 100px;
+  background-color: #000000;
+  border-radius: 20px;
+  margin-bottom: 64px;
+}
+
+.dec h1 {
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.order input, .order textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 38px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.order input::placeholder {
+  color: #000000;
+  font-size: 20px;
+}
+
+.order input[type="submit"]{
+  background-color: #01AF8C;
+  box-shadow: 0 2px 2px #000000;
+  cursor: pointer;
+}
+
+form p {
+  font-weight:900;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.msg {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.pay {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.pay label {
+  margin-bottom: 40px;
+}
+
+.cashpay , .cardpay {
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: -60px;
+}
+
+
+/* --------- order page --------- */
+
+article {
+  width: 750px;
+  height: 394px;
+  background-color: #000000;
+  margin-top: 50px;
+  margin-left: 550px;
+  border-radius: 20px;
+}
+
+article p {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+
+
+.migebulia, .dakavshireba  {
+  font-size: 36px;
+}
+
+
+.madloba {
+  font-size: 20px;
+}
+
+.migeba {
+  width: 750px;
+  height: 70px;
+  background-color: #F5BA22;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 0px #000000;
+  margin-left: 550px;
+  margin-top: 300px;
+  margin-bottom: 130px;
+  cursor: pointer;
+}
+
+.migeba p {
+  font-size: 20px;
+  padding-top: 20px;
+}
